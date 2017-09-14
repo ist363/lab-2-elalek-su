@@ -1,0 +1,138 @@
+.big-blue{
+    display: flex;
+}
+
+.small-blue{
+    height: 200px;
+    margin: 10px;
+    background-color: lightblue;
+    width: 50%;
+}
+
+.big-red{
+    display: flex;
+}
+
+.small-red-1, .small-red-3{
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+    flex-basis: 25%;
+}
+.small-red-2{
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+    flex-basis: 50%;
+}
+
+.big-purp{
+    display: flex;
+}
+
+.small-purp-1, .small-purp-3{
+    height: 200px;
+    margin: 10px;
+    background-color: purple;
+    flex-basis: 50%;
+}
+
+.small-purp-2{
+    height: 200px;
+    margin: 10px;
+    background-color: purple;
+    flex-basis: 25%;
+}
+
+.big-green{
+    display: flex;
+    justify-content: space-between;
+}
+.small-green{
+    flex-basis: 33%;
+    background-color: green;
+    height: 200px;
+    margin: 10px;
+}
+
+.big-yellow{
+    display: flex;
+}
+.small-yellow, .small-yellow-3{
+    height: 200px;
+    margin: 10px;
+    background-color: yellow;
+    flex-basis: 25%;
+}
+.small-yellow-3{
+    margin-left: auto;
+}
+.html2{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.body2{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: darkgray;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.left{
+    flex-basis: 75%;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: darkgray; 
+    margin: 10px;
+}
+.right{
+    flex-basis: 25%;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: darkgray; 
+    margin: 10px;
+}
+.html3{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.body3{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 900px;
+    height: 300px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.item{
+    margin: 10px;
+    background-color: brown;
+    flex-basis:33%;
+    min-height: 100px;
+}
